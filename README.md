@@ -1,1 +1,1 @@
-# Google-Cloud-Ready-Facilitator-Program-2022-
+# Google-Cloud-Ready-Facilitator-Program-2022

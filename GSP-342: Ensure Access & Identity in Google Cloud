@@ -3,10 +3,10 @@ NOTE: Replace <IAM-ROLE-NAME-TASK-1>, <IAM-SERVICE-ACC-TASK-2> & <CLUSTER-NAME-T
 Task 1: Create a custom security role.
 
 
-```js
-gcloud config set compute/zone us-east1-b
-nano role-definition.yaml
-```
+
+    gcloud config set compute/zone us-east1-b
+    nano role-definition.yaml
+
 
 BASH
 Copy the below content to file

@@ -26,6 +26,7 @@ includedPermissions:
 YML
 Save by : ctrl + o -> enter -> ctrl + x
 gcloud iam service-accounts create orca-private-cluster-sa --display-name "Orca Private Cluster Service Account"
+
 gcloud iam roles create <IAM-ROLE-NAME-TASK-1> --project $DEVSHELL_PROJECT_ID --file role-definition.yaml
 BASH
 Task 2: Create a service account

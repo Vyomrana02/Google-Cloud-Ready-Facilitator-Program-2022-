@@ -30,6 +30,8 @@ gcloud iam service-accounts create <IAM-SERVICE-ACC-TASK-2> --display-name "Orca
 BASH
 
 
+
+
 Task 3: Bind a custom security role to an account
 
 gcloud projects add-iam-policy-binding $DEVSHELL_PROJECT_ID --member serviceAccount:<IAM-SERVICE-ACC-TASK-2>@$DEVSHELL_PROJECT_ID.iam.gserviceaccount.com --role roles/monitoring.viewer

@@ -42,6 +42,10 @@ gcloud projects add-iam-policy-binding $DEVSHELL_PROJECT_ID --member serviceAcco
 
 gcloud projects add-iam-policy-binding $DEVSHELL_PROJECT_ID --member serviceAccount:<IAM-SERVICE-ACC-TASK-2>@$DEVSHELL_PROJECT_ID.iam.gserviceaccount.com --role projects/$DEVSHELL_PROJECT_ID/roles/<IAM-ROLE-NAME-TASK-1>
 BASH
+
+
+
+
 Task 4: Create and configure a new Kubernetes Engine private cluster
 
 gcloud container clusters create <CLUSTER-NAME-TASK-4> --num-nodes 1 --master-ipv4-cidr=172.16.0.64/28 --network orca-build-vpc --subnetwork orca-build-subnet --enable-master-authorized-networks  --master-authorized-networks 192.168.10.2/32 --enable-ip-alias --enable-private-nodes --enable-private-endpoint --service-account <IAM-SERVICE-ACC-TASK-2>@$DEVSHELL_PROJECT_ID.iam.gserviceaccount.com --zone us-east1-b

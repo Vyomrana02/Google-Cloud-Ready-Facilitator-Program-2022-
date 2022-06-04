@@ -71,4 +71,5 @@ resources:
 TERRAFORM
 gcloud deployment-manager deployments create test --config=qwiklabs.yaml
 BASH
+
 Congratulations, you're all done with the lab 😄

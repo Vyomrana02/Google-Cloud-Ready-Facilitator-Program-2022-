@@ -117,3 +117,6 @@ BASH
 Click “Save Query Results” and select “BigQuery table” option. Enter a name for a new table and save. Go to the new table in which result is saved and then Click on Export > Scan with DLP
 
 Congratulations, you're all done with the lab 😄
+```bash
+cd RapidAPI\ DevRel-Examples-External\ main\ recipe-app/
+```

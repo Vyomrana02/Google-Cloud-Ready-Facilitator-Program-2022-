@@ -20,7 +20,7 @@ gcloud container clusters create echo-cluster --num-nodes 2 --zone us-central1-a
 kubectl create deployment echo-web --image=gcr.io/qwiklabs-resources/echo-app:v1
 
 
-4RTH TASK ----------
+----------------------------------4RTH TASK ----------------------------------
 
 
 kubectl expose deployment echo-web --type=LoadBalancer --port=80 --target-port=8000

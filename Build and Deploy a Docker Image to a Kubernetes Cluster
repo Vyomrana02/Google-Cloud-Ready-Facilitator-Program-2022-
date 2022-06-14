@@ -10,7 +10,7 @@ tar -xvf echo-web.tar.gz
 gcloud builds submit --tag gcr.io/$DEVSHELL_PROJECT_ID/echo-app:v1 .
 
 
-1ST TASK ----------
+----------------------------------1ST TASK ----------------------------------
 
 gcloud container clusters create echo-cluster --num-nodes 2 --zone us-central1-a --machine-type n1-standard-2
 

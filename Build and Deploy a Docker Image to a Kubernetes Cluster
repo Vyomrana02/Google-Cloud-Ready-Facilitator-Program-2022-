@@ -1,4 +1,4 @@
-Firstly clone this repository and unzip it - 
+First clone this repository and unzip it - 
 
 gsutil cp gs://sureskills-ql/challenge-labs/ch04-kubernetes-app-deployment/echo-web.tar.gz .
 

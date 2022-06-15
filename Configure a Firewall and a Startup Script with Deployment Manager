@@ -1,7 +1,3 @@
-In starting, do exactly what I did in my Video -
-
-Paste this in qwiklabs.jinja file,exactly as I did -
-
 
 resources:
 - type: compute.v1.instance

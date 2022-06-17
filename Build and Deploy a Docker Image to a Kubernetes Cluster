@@ -13,9 +13,6 @@ gcloud container clusters create echo-cluster --num-nodes 2 --zone us-central1-a
 gcloud builds submit --tag gcr.io/$DEVSHELL_PROJECT_ID/echo-app:v1 .
 
 
-
-
-
 3RD TASK -----------
 
 kubectl create deployment echo-web --image=gcr.io/qwiklabs-resources/echo-app:v1

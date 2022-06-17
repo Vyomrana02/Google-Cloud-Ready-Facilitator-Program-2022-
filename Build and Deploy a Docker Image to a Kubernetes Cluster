@@ -4,7 +4,7 @@ gsutil cp gs://sureskills-ql/challenge-labs/ch04-kubernetes-app-deployment/echo-
 
 tar -xvf echo-web.tar.gz
 
-1ST TASK ----------
+---------- 1ST TASK ----------
 
 gcloud container clusters create echo-cluster --num-nodes 2 --zone us-central1-a --machine-type n1-standard-2
 
@@ -20,9 +20,6 @@ kubectl create deployment echo-web --image=gcr.io/qwiklabs-resources/echo-app:v1
 
 4RTH TASK ----------
 
-
 kubectl expose deployment echo-web --type=LoadBalancer --port=80 --target-port=8000
-
-
 
 kubectl get svc

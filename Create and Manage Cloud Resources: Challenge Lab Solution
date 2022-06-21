@@ -1,3 +1,4 @@
+JUST COPY QUERY 1 BY 1 AND RUN 
 cat << EOF > startup.sh
 #! /bin/bash
 apt-get update

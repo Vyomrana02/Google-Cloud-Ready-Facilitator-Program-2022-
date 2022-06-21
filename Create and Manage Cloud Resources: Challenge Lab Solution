@@ -29,7 +29,9 @@ gcloud compute instance-groups managed create web-server-group \
 gcloud compute firewall-rules create web-server-firewall \
           --allow tcp:80 \
           --network nucleus-vpc
+          
 gcloud compute http-health-checks create http-basic-check
+
 gcloud compute instance-groups managed \
           set-named-ports web-server-group \
           --named-ports http:80 \
@@ -40,6 +42,7 @@ gcloud compute backend-services create web-server-backend \
           --protocol HTTP \
           --http-health-checks http-basic-check \
           --global
+          
 gcloud compute backend-services add-backend web-server-backend \
           --instance-group web-server-group \
           --instance-group-region us-east1 \

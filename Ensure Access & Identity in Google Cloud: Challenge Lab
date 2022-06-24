@@ -2,7 +2,7 @@ export CUSTOM_SECURIY_ROLE=<YOUR_SECURITY_ROLE>
 
 export SERVICE_ACCOUNT=<YOUR_SERVICE_ACCOUNT>
 
-export CLUSTER_NAME=
+export CLUSTER_NAME=<YOUR_CLUSTER_NAME>
 
 TASK 1  -----------------------------------------------------------------
 

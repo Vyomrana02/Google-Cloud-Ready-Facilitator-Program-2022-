@@ -1,5 +1,3 @@
-Made Enviornment Variables In The Starting!
-
 export CUSTOM_SECURIY_ROLE=
 
 export SERVICE_ACCOUNT=
